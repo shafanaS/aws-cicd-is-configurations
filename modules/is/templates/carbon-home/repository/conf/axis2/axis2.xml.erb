@@ -465,8 +465,9 @@
                     Service (GMS) using a TCP ping mechanism.
         -->
         <parameter name="membershipScheme">aws</parameter>
-        <parameter name="accessKey"><%= @aws_access_key %></parameter>
-        <parameter name="secretKey"><%= @aws_secret_key %></parameter>
+        <parameter name="iamRole"><%= @aws_iam_role %></parameter>
+<!--        <parameter name="accessKey"><%#= @aws_access_key %></parameter>-->
+<!--        <parameter name="secretKey"><%#= @aws_secret_key %></parameter>-->
         <parameter name="securityGroup">WSO2SecurityGroup</parameter>
         <parameter name="region"><%= @aws_region %></parameter>
         <parameter name="tagKey">cluster</parameter>

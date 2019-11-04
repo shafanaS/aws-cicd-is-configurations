@@ -30,6 +30,7 @@ class is::params {
   $aws_access_key = 'ACCESS_KEY'
   $aws_secret_key = 'SECRET_KEY'
   $aws_region = 'REGION_NAME'
+  $aws_iam_role = 'IAM_ROLE'
   $local_member_host = 'LOCAL-MEMBER-HOST'
   $http_proxy_port = '80'
   $https_proxy_port = '443'
