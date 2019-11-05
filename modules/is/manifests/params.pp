@@ -27,11 +27,6 @@ class is::params {
   $mgt_hostname = 'ALB_DNS_NAME'
   ####
   $jdk_version = 'JDK_TYPE'
-  $aws_access_key = 'ACCESS_KEY'
-  $aws_secret_key = 'SECRET_KEY'
-  $aws_region = 'REGION_NAME'
-  $aws_iam_role = 'IAM_ROLE'
-  $local_member_host = 'LOCAL-MEMBER-HOST'
   $http_proxy_port = '80'
   $https_proxy_port = '443'
   $product = 'wso2is'
@@ -109,6 +104,13 @@ class is::params {
   $transport_sender_trust_store_location = 'repository/resources/security/client-truststore.jks'
   $transport_sender_trust_store_type = 'JKS'
   $transport_sender_trust_store_password = 'wso2carbon'
+
+  #------------clustering--------------
+  $aws_access_key = 'ACCESS_KEY'
+  $aws_secret_key = 'SECRET_KEY'
+  $aws_region = 'REGION_NAME'
+  $aws_iam_role = 'IAM_ROLE'
+  $local_member_host = 'LOCAL-MEMBER-HOST'
 
   # user-mgt.xml
   $admin_username = 'admin'
